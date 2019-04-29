@@ -12,7 +12,7 @@ plt.scatter(X[0, :], X[1, :], c=Y[0], s=40, cmap=plt.cm.Spectral);
 plt.show()
 shape_X = X.shape
 shape_Y = Y.shape
-m = shape_X[1]       # training set size
+m = shape_X[1]      
 
 
 print ('The shape of X is: ' + str(shape_X))
